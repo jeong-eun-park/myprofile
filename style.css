@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+.logo {
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    font-size: 80px;
+    padding : 20px 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:linked a:visited {
+    color: white;
+}
+
+.topmenu{
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:  #d3d3d3;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+
+li a {
+    display: block;
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+  }
+
+.container{
+    overflow: hidden;
+    display : flex;
+    justify-content: space-around; 
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    height: 300px;
+
+}  
+
+.aboutwraper{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+ 
+    width: 270px;
+    padding: 0px 20px 10px 20px;
+
+}
+.skillswraper{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    width: 270px;
+    padding: 0px 20px 10px 20px;
+    margin-left: 0px;
+ 
+
+}
+.contactwraper{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    width: 270px;
+    padding: 0px 20px 10px 20px;
+
+}
+
+
+
+.bottommenu{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    border-top: solid;
+    border-color: gray;
+    padding: 0px;
+    width: 100%;
+
+}
+.bottommenu ul{
+    list-style: none;
+    margin-top: 5px;
+    padding: 0px;
+}
